@@ -1,0 +1,40 @@
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lavender;
+  font-family: Arial, sans-serif;
+  margin:auto;
+}
+
+#drum-machine {
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  width:70%;
+  background-color: orange;
+  font-family: Arial, sans-serif;
+  margin:auto;
+  margin-top:20px;
+}
+#drum-pads {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.drum-pad {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  border: 2px solid #ccc;
+  cursor: pointer;
+}
+
+.drum-pad audio {
+  display: none;
+}

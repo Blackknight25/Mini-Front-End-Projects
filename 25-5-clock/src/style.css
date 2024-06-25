@@ -1,0 +1,42 @@
+body {
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: turquoise;
+  font-family: Arial, sans-serif;
+  margin:auto;
+  
+}
+
+#whole{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#whole-2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#break-stuff{
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  font-family: Times New Roman;
+  border: 2px solid purple;
+  width: 150px;
+  margin:auto;
+  padding:10px;
+  text-align:center;
+}
+#session-stuff{
+  background-color: yellow;
+  font-family: Times New Roman;
+  border: 2px solid purple;
+  width: 150px;
+  margin:auto;
+  padding:10px;
+  text-align:center;
+}
